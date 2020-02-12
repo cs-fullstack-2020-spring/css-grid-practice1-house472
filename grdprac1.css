@@ -1,0 +1,46 @@
+html, body{
+    background-color: lightgray;
+    height: 100%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+
+    background-color: white;
+    
+}
+#login{
+    grid-column: 1/3;
+    grid-row: 1;
+    border: black solid 2px;
+}
+#signup{
+    grid-column: 3/5;
+    grid-row: 1;
+}
+#email{
+    grid-column: 1/2;
+    grid-row: 3;}
+#signin{
+    grid-column: 1/5;
+    grid-row: 2;
+
+}
+#password{
+    grid-column: 1/2;
+    grid-row: 4;
+}
+#button{
+    grid-column: 3/4;
+    grid-row: 4;
+}
+#forgot{
+    grid-column: 1/3;
+    grid-row: 5;
+}
+#green{
+    grid-column: 3/5;
+    grid-row: 5;
+}
